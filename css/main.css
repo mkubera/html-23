@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #777;
+  font-size: 20px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+header,
+main,
+footer {
+  padding: 20px;
+}
+p {
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 span {
+  font-size: 16px;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: #7c2fbf;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+main {
+  background-color: lightblue;
+}
+
+footer {
+  background-color: lightcoral;
+}
