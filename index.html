@@ -7,67 +7,84 @@
     <title>Hello, world</title>
     <meta name="description" content="HTML 01 - Future Collars - zadania" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <!-- <script src="js/main.js" defer></script> -->
+    <style>
+      .nav {
+        opacity: 1;
+      }
+    </style>
   </head>
   <body>
     <div id="wrapper">
       <header>
-        <nav>
-          <ul>
-            <li>Intro</li>
-            <li>What we do</li>
-            <li>Who we are</li>
+        <nav class="nav">
+          <ul class="nav-links">
+            <li class="nav-link" style="font-weight: bold; border-width: 2px">
+              Intro
+            </li>
+            <li class="nav-link">What we do</li>
+            <li class="nav-link">Who we are</li>
           </ul>
         </nav>
       </header>
 
       <main>
         <section>
-          <img
-            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-            alt="Mountains"
-            width="750"
-          />
-          <h1>HTML - wstep <span>(tagi)</span></h1>
-          <h2>subtitle</h2>
-          <h3>hi</h3>
-          <h4>there</h4>
-          <h5>dude</h5>
-          <h6>man</h6>
-          <p>
-            <b>Lorem,</b> <i>ipsum</i> <u>dolor</u>
-            <b
-              ><i
-                ><u><del>sit</del></u></i
-              ></b
+          <section class="main-image">
+            <img
+              src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+              alt="Mountains"
+              class="main-image-img"
+            />
+            <h2 class="main-image-text">Mountains</h2>
+            <div class="main-image-box"></div>
+          </section>
+
+          <section class="promo">
+            <h1>HTML - wstep <span>(tagi)</span></h1>
+            <div class="promo-subtitle">
+              <h2>subtitle</h2>
+            </div>
+            <a
+              href="http://duckduckgo.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-wrapper"
             >
-            amet consectetur adipisicing elit. Cupiditate obcaecati error eaque
-            modi quas doloribus odit nihil et maiores repellat. Pariatur ea eum
-            adipisci dolorum, eligendi veniam enim odio vitae?
+              <button class="btn">Click me</button>
+            </a>
+          </section>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+            deleniti nam omnis quam, ipsam minus beatae consequuntur asperiores
+            fugiat vel consequatur at veritatis? Consequuntur reiciendis
+            voluptatum, velit ab laudantium totam.
           </p>
-          <p>Welcome!</p>
         </section>
 
         <section>
-          <ul>
-            <li>Katarzyna <span>(new)</span></li>
-            <li>Kasia</li>
-            <li>Jakub</li>
+          <ul class="greeting">
+            <li>Hello</li>
+            <li>There,</li>
+            <li>Man</li>
+            <li>Hello</li>
+            <li>There,</li>
+            <li>Man</li>
+            <li>Hello</li>
+            <li>There,</li>
+            <li>Man</li>
           </ul>
         </section>
       </main>
-
-      <table>
-        <tr>
-          <td>
-            <ul>
-              <li>Hi!</li>
-              <li>Hello!</li>
-            </ul>
-          </td>
-        </tr>
-      </table>
 
       <footer>copyright Brand 2021</footer>
     </div>
