@@ -91,6 +91,7 @@ header {
   left: 0;
   position: absolute;
   z-index: 101;
+  text-shadow: 0 2px 2px #000;
 }
 .main-image-box {
   width: 100px;
@@ -100,6 +101,7 @@ header {
   left: 50%;
   position: absolute;
   z-index: 100;
+  box-shadow: 0 0 40px #000, 0 0 40px #000;
 }
 
 .main-image-img {
